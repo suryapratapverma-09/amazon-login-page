@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="container">
+    <div class="navbar">
+        <svg width="100%" height="295px">
+            <polygon points="521,0 -1,142.5 935.5,142.5 1050.5,92.84 1440,92.84 1440,0" style="fill:#0DA6BB"/>
+        </svg>
+        <div class="logoimage">
+            <img src="./image/pngegg.png" alt="logo-amazon" class="logo">
+        </div>
+        <div class="content">
+            <div class="home"><a href="https://www.amazon.in/" id="home">Home</a></div>
+            <div class="about"><a href="https://www.aboutamazon.in/" id="about">About Us</a></div>
+        </div>
+    </div>
+    <div class="mainbackground">
+        <img src="./image/codioful-formerly-gradienta-QWutu2BRpOs-unsplash.jpg" alt="background-image" class="image1"/>
+        <div class="graphics">
+            <img src="./image/pngwing.com (1).png" alt="" class="image2">
+            <img src="./image/pngwing.com (2).png" alt="" class="image3">
+        </div>
+    </div>
+    <div class="login-page">
+      
+            <p id="login-head">Login To Amazon</p>
+       
+        <form action=" " class="user-password">
+                <input type="text" id="user" placeholder="Email / Phone Number">
+                <input type="text" id="password" placeholder="Password">
+        </form>
+        <div>
+            <button onclick="myfunction()" href="#"><a id="submit-link" href="#">Submit</a></button>
+        </div>
+        <div class="alternate">
+            <a href="#" class="alter fpass">Forgot Password</a>
+            <a href="#" class="alter signup">Sign Up</a>
+        </div>
+    </div>
+    <script>
+        function myfunction()
+        {
+            document.querySelector("button a").setAttribute("href","https://www.amazon.in/ap/signin?%26adgrpid%3D155259815513%26hvpone%3D%26hvptwo%3D%26hvadid%3D674842289437%26hvpos%3D%26hvnetw%3Dg%26hvrand%3D1963357858500788244%26hvqmt%3De%26hvdev%3Dc%26hvdvcmdl%3D%26hvlocint%3D%26hvlocphy%3D9149897%26hvtargid%3Dkwd-10573980%26hydadcr%3D14453_2316415%26gad_source%3D1&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0");
+        }
+    </script>
+
+</div>
+</body>
+</html>
